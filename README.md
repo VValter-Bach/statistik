@@ -1,4 +1,6 @@
 # Statistik
+This algorithm reads a csv file, and checks for useless rows. and writes the modified data in a new file
+
 ## Build
 This software was run ann build on linux x64.
 To use the makefile you need the directories *bin/* and *obj/* the output end up in bin/statistik.out. 
