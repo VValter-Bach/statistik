@@ -107,7 +107,7 @@ bool * CheckThrough(const unsigned long long lines_count, const unsigned long lo
 
     //go through row by row
     for (unsigned long long row = 0; row < rows_count; row++) {
-        for(unsigned long long i = 0; i < lines_count; i++) amount[i] = 1; //reset amount 
+        for(unsigned long long i = 2; i < lines_count; i++) amount[i] = 1; //reset amount 
         for (unsigned long long line = 1; line < lines_count; line++) {
             for (unsigned long long i = 1; i <= line; i++) {
                 //the string compare
