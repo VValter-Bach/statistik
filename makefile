@@ -2,6 +2,13 @@ CC=c++
 LINKER=
 FLAGS=-Wall -Wextra -O3
 OBJ=obj/main.o obj/statistik.o
+MKDIR=mkdir -p
+
+all: dirs statistik.out
+
+dirs:
+	$(MKDIR) obj bin
+
 statistik.out: $(OBJ)
 	$(CC) $(FLAGS) -o bin/statistik.out $(OBJ) $(LINKER)
 

@@ -1,9 +1,9 @@
 # Statistik
-This algorithm reads a csv file, and checks for useless rows. and writes the modified data in a new file
+This algorithm reads a csv(Char seperated Value) file, and checks for useless cloumns and writes the modified data into a new file
 
 ## Build
-This software was run ann build on linux x64.
-To use the makefile you need the directories *bin/* and *obj/* the output end up in bin/statistik.out. 
+This software was run and build on linux x64 only.
+It will build bin/statistik.out.
 
 ## Run
 The software is run with args. Minimum argc is 2. Recommended is 3
